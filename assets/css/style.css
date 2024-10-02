@@ -1,0 +1,120 @@
+header {
+    padding-top: 50px;
+}
+nav {
+    background-color: #533d59;
+    --pico-primary: #fff;
+    padding: 0 10px;
+    padding-left: 30px;
+}
+nav ul {
+    margin-left: 10px;
+}
+nav li {
+    padding: 0;
+    color: #fff;
+}
+nav li:first-child a {
+    margin-right: 40px;
+    font-weight: 700;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 300;
+}
+nav a:hover {
+    color: #e0e0e0;
+}
+div.split {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+div.split img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+.container.with-hero {
+    padding-top: 0;
+}
+.with-hero header {
+    padding-top: 0;
+}
+.social h6 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.social ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.social li {
+    display: inline-block;
+    list-style: none;
+}
+.social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.teaching .social img {
+    width: 100px;
+    height: 100px;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+#hero-image {
+    background-image: url('../floatingshape.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    color: #fff;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+#hero-image hgroup h1 {
+    color: #fff;
+}
+#hero-image hgroup p {
+    color: #e5e5e5;
+}
+#hero-image img {
+    height: 200px;
+    margin: 20px;
+}
+iframe + p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+}
+.gutter {
+    margin: 30px 0;
+}
+#education article {
+    display: flex;
+    align-items: stretch;
+}
+#education article div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#education article img {
+    min-width: 150px;
+}
+.research img {
+    max-width: 400px;
+}
